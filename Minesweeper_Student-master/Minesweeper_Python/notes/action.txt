@@ -1,0 +1,16 @@
+Action.py
+
+    Defines a class called action. This class stores an action which
+    is defined in AI.py and the coordinates of the action
+
+    The class has three methods:
+        init()
+            - action and its coordinates
+        getMove()
+            - returns the action stored in the object
+        getX()
+            - returns X coordinate of action
+        getY()
+            - returns Y coordinate of action
+
+    

@@ -1,0 +1,25 @@
+World.py
+
+    Contains the 'World' class which sets up the environment for
+    the Minesweeper gmae. It has the following methods:
+
+        __init__: Constructor for the World class. It initializes 
+        instance variables and creates the board based on 
+        the given input file or defaults.
+        
+        run: The engine of the game that executes the game and 
+        returns the result.
+
+        __checkValidAction: This method checks if a move is valid 
+        and if the coordinates are in bounds.
+
+        __doMove: This method performs a move on the game board 
+        based on the given action and x, y coordinates.
+    
+
+    Also has a nested class called "__Tile" which has information of
+    a tile in the game, such as if there is a mine, if it is covered, 
+    if there is a flag, and the number of adjacent mines.
+
+    This 'World' class imports and uses several other classes
+

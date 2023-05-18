@@ -1,0 +1,11 @@
+AI.py
+
+    Contains the abstract class AI, which is
+    an interface for a Minesweeper agent
+
+    Defines an enumerated class called Action 
+    which lists the possible actions the agent can takes
+    in the game.
+
+    Any AI implementing the getAction method will need
+    to return an Action object for every turn of the game.

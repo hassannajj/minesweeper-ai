@@ -1,0 +1,11 @@
+Main.py
+
+    Entry point that allows reads Minesweeper world files, 
+    creates corresponding World objects, 
+
+    It runs the game using which is either  a manual agent, 
+    a random agent, or a custom agent defined in the MyAI class.
+
+    It also outputs info on the performance of the agent, such as 
+    number of beginner, intemerdiate, and expert levels completed
+    and cumulative score.

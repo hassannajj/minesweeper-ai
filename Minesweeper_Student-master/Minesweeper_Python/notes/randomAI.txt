@@ -1,0 +1,14 @@
+RandomAi.py
+
+    Subclass of AI class. It will create an AI that
+    returns a random actino to perform in the game 
+    at every turn
+
+    getAction() returns an action object.
+    It will also generate random x and y coordinates within 
+    the range of the game board dimensions. 
+
+    get Action will select a random action from the list of actions
+    avaialble in the 'Action' enum. it will then create 
+    a random actin from the selection action and the random coordinates
+    

@@ -1,0 +1,15 @@
+MyAi.py
+
+    MyAi class inherits from the abstract AI class
+
+    __init__()
+        takes 5 arguments, the dimensions of the board, the
+        number of total mines on the board, and the starting coordinates
+        of the agent.
+
+    getAction()
+        main funciton that you will implement for you agent.
+        It takes an intent number as an argument, which represents 
+        the number of the current turn.
+
+        It returns an Action object with the LEAVE action

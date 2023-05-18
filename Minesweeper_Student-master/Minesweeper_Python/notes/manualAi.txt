@@ -1,0 +1,10 @@
+ManualAI.py 
+
+    Allows user to play Minesweeper manually. Has getAction
+    method which promps the user for the type of action
+    they want to perform
+
+    This class is a subclass of the AI class and it override 
+    the abstract getAction method. It imports the AI and Action
+    class.
+
