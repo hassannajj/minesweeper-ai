@@ -174,9 +174,9 @@ class MyAI( AI ):
                 return Action(AI.Action.UNCOVER, self.x, self.y)
          
         def isValidCoor(self, x, y):
-                if x < 0 or x >= self.rowDimension:
+                if x < 0 or x >= self.colDimension:
                         return False
-                if y < 0 or y >= self.colDimension:
+                if y < 0 or y >= self.rowDimension:
                         return False
                 return True
 
