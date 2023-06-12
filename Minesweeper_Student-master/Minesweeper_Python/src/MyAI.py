@@ -88,7 +88,7 @@ class MyAI( AI ):
                     return self.returnFlag()
                 score = 8
                 cont = 0
-                for _ in range(20):  # Maybe change to 40
+                for _ in range(50):  # Maybe change to 40
                     if not self.checkNow:
                         break
                     pos = self.checkNow.pop(0)
